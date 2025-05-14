@@ -8,16 +8,16 @@ const Style = () => {
   return (<style jsx global>{`
     // 底色
     body{
-        background-color: #f5f5f5
+        background-color: #E6AE75;
     }
     .dark body{
-        background-color: black;
+        background-color: #E65940;
     }
   
     /*  菜单下划线动画 */
     #theme-hexo .menu-link {
         text-decoration: none;
-        background-image: linear-gradient(#928CEE, #928CEE);
+        background-image: linear-gradient(#E6AB40, #E6AB40);
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: 0 2px;
@@ -26,7 +26,7 @@ const Style = () => {
     
     #theme-hexo .menu-link:hover {
         background-size: 100% 2px;
-        color: #928CEE;
+        color: #E6AB40;
     }
 
     /* 设置了从上到下的渐变黑色 */
@@ -61,12 +61,12 @@ const Style = () => {
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #49b1f5;
+        background-color: #E6AB40;
     }
 
     * {
         scrollbar-width:thin;
-        scrollbar-color: #49b1f5 transparent
+        scrollbar-color: #E6AB40 transparent;
     }
     
 

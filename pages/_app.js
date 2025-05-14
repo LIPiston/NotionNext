@@ -69,6 +69,7 @@ const MyApp = ({ Component, pageProps }) => {
       ) : (
         content
       )}
+      <SpeedInsights />
     </>
   )
 }
