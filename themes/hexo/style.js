@@ -8,10 +8,10 @@ const Style = () => {
   return (<style jsx global>{`
     // 底色
     body{
-        background-color: #E6AE75;
+        background-color: #000000;
     }
     .dark body{
-        background-color: #E65940;
+        background-color: #000000;
     }
   
     /*  菜单下划线动画 */
@@ -47,7 +47,7 @@ const Style = () => {
 
     // 选中字体颜色
     ::selection {
-        background: rgba(45, 170, 219, 0.3);
+        background: #E6AB40;
     }
 
     // 自定义滚动条
@@ -61,12 +61,12 @@ const Style = () => {
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #E6AB40;
+        background-color: transparent;
     }
 
     * {
         scrollbar-width:thin;
-        scrollbar-color: #E6AB40 transparent;
+        scrollbar-color: transparent transparent;
     }
     
 
